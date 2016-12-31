@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FMS login</title>
+</head>
+<body>
+
+	<div style="padding-left:40%; padding-top:20%">
+		<div class="flashes">
+  			{% for message in get_flashed_messages()%}
+    			{{ message }}
+  			{% endfor %}
+		</div>
+		<form method="POST">
+			<input type="text" name="username">
+			<input type="text" name="password">
+			<input type="submit" value="submit">
+		</form>
+	</div>
+</body>
+</html>

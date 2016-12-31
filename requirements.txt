@@ -1,0 +1,6 @@
+Flask
+Flask-Login
+Flask-SqlAlchemy
+Flask-Restless
+marshmallow
+mysqlclient
